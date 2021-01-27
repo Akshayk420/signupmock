@@ -60,11 +60,11 @@ $conn->close();
 </table>
 <br>
 <br>
-<form method="POST" action="editprofile.html">
+<form method="POST" action="editprofile.php">
 <input type="submit" class="btn btn-primary" name="submit" value="EDIT PROFILE">
 </form>
 <br>
-<form method="POST" action="signupform.html">
+<form method="POST" action="index.php">
 <input type="submit" class="btn btn-primary" name="submit" value="LOGOUT">
 
 </body>
