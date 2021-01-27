@@ -46,7 +46,7 @@
 </form>
 
 
- <form method="POST" action="login.html">
+ <form method="POST" action="login.php">
        <input type="submit" class="btn btn-primary" name="submit" value="LOGIN">
  </form>  
 
