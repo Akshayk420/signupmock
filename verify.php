@@ -24,14 +24,24 @@ $_SESSION[email] = $email;
           
         if($count>0)
         { 
-
-            header("Location:https://www.google.com");
-	    exit();
+		//echo "<script type='text/javascript'>window.location.href = "http://www.google.com";</script>"; exit();
+            //header("Location:https://www.google.com");
+	    //exit();
+		<script type="text/javascript">
+   		<!--
+   		window.location = "http://www.google.com/"
+   //-->
+		</script>
 	}  
         else{  
+				<script type="text/javascript">
+   		<!--
+   		window.location = "http://www.fb.com/"
+   //-->
+		</script>
 
-            header("Location:https://signupmock.herokuapp.com/error.php");
-	    exit();
+            //header("Location:https://signupmock.herokuapp.com/error.php");
+	    //exit();
         }     
 mysqli_close($conn);
 ?>
