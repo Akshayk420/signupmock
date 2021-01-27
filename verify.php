@@ -25,12 +25,12 @@ $_SESSION[email] = $email;
         if($count>0)
         { 
 
-            header("Location:profile.php");
+            header("Location:https://signupmock.herokuapp.com/profile.php");
 	    exit();
 	}  
         else{  
 
-            header("Location:error.php");
+            header("Location:https://signupmock.herokuapp.com/error.php");
 	    exit();
         }     
 mysqli_close($conn);
