@@ -25,7 +25,7 @@ $_SESSION[email] = $email;
         if($count>0)
         { 
 
-            header("Location:https://signupmock.herokuapp.com/profile.php");
+            header("Location:https://www.google.com");
 	    exit();
 	}  
         else{  
