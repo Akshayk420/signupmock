@@ -25,12 +25,12 @@ $_SESSION[email] = $email;
         if($count>0)
         { 
 
-            header("Location:/profile.php");
+            header("Location:profile.php");
 	    exit();
 	}  
         else{  
 
-            header("Location:/error.php");
+            header("Location:error.php");
 	    exit();
         }     
 mysqli_close($conn);
