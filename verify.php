@@ -9,8 +9,6 @@ $servername='remotemysql.com';
           die('Could not Connect MySql Server:' .mysql_error());
         }
 
-
-
 $email = $_POST['email'];
 $mobile = $_POST['mobile'];
 $_SESSION[email] = $email;
@@ -25,34 +23,15 @@ $_SESSION[email] = $email;
         #$result = mysqli_query($conn,$sql);
           
         if($count>0)
-        {  
-        	
-        	#echo "<script type='text/javascript'>window.location.href = "profile.html";</script>"; exit();
-
-         //$url='http://www.google.com';
-   //echo '<META HTTP-EQUIV=REFRESH CONTENT="1; '.$url.'">';
-        	 
-
-            //header('Location:http://www.google.com');
-            //exit();
+        { 
 
             header("Location:/profile.php");
-
-            exit();
-	
-
-  
-        }  
+	    exit();
+	}  
         else{  
 
-            header("Location:/error.html");
-
-            exit();
-
-
+            header("Location:/error.php");
+	    exit();
         }     
-	
-
-
 mysqli_close($conn);
 ?>
