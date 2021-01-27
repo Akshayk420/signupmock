@@ -19,8 +19,8 @@
 <br>
 <br>
 </div>
-<p>Click<a href="signupform.html"> here </a>to SIGNUP</p>
-<p>or<a href="login.html"> here </a>to try again</p>
+<p>Click<a href="index.php"> here </a>to SIGNUP</p>
+<p>or<a href="login.php"> here </a>to try again</p>
 </div>
 </div>    
 </div>
